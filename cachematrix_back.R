@@ -5,8 +5,6 @@
 ## cache store (m) - i.e. not null - it prints this (i.e. it's used it as a cache). IF not, it gets the data with x$get(),
 ## uses solve (if it can) to invert it, which it then assigns to m. It then passes this to x$getinvert() method call, 
 ## which superassigns it to m, i.e. it is cached for future usage. 
-##
-## Stephen Gadd - 24/8/14
 
 
 ## Write a short comment describing this function
