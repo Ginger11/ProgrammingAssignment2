@@ -7,9 +7,12 @@
 ## which superassigns it to m, i.e. it is cached for future usage. 
 ##
 ## Stephen Gadd - 24/8/14
-
-
-## Write a short comment describing this function
+##
+## Usage: mymatrix_output <- makeCacheMatrix(mymatrix)
+## cacheSolve(mymatrix_output)
+##
+## Sorry for the long comment reviewer! :)
+## (Write a short comment describing this function)
 
 makeCacheMatrix <- function(x = matrix()) {
 # takes a matrix as input to function. It also defines a series of methods (functions) for calling by cacheSolve later.
